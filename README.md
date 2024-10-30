@@ -40,6 +40,7 @@ During the development of OpenEdit, I have gained experience in the following ar
 You can use the OpenEdit by going into the OpenEdit Directory
 I have preinstalled it, but if you want to install it by setup.py, open cmd in the directory where you have cloned this repo
 - cd OpenEdit
+- open setup.py in any text editor, copy the path of finalicon.ico and paste it in iconpath
 - python setup.py build
 
 ## Contributing
