@@ -13,6 +13,6 @@ setup(
     version=app_version,
     description=app_description,
     executables=executables,
-    options={"build_exe": {"packages": ["tkinter", "subprocess"]}}
+    options={"build_exe": {"packages": ["tkinter", "os"]}}
 )
 
