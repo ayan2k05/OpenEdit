@@ -34,6 +34,7 @@ During the development of OpenEdit, I have gained experience in the following ar
 
 - Lightweight and fast **(0.3% CPU usage, 12MB RAM usage)**
 - Graphical user interface
+- Terminal 
 
 ## Installation
 
