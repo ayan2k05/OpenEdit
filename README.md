@@ -1,6 +1,6 @@
 # OpenEdit
 
-Welcome to OpenEdit! This is a lightweight, open-source text editor I created to provide a better alternative to heavier editors like Sublime Text and Visual Studio Code, which consume too many resources on old laptops and computers.
+Welcome to OpenEdit! This is a lightweight, open-source text editor I created to provide a better alternative to heavier editors like Sublime Text,Geany and Visual Studio Code, which consume too many resources on old laptops and computers.
 
 ## About Me
 
