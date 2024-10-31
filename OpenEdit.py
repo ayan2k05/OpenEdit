@@ -42,8 +42,8 @@ def open_cmd():
         print(f"An error occurred: {e}")
 
 def toggle_theme():
-    global is_dark_theme
-    if is_dark_theme:
+    global dark_theme
+    if dark_theme:
         window.config(bg="#dae6da")
         text_edit.config(bg="#f8fdf8", fg="#3b3b3b", insertbackground="#4a90e2")
         line_numbers.config(bg="#c5d6c5", fg="#4b4b4b")
@@ -63,7 +63,7 @@ def toggle_theme():
         # Set color for all buttons in dark theme
         for button in all_buttons:
             button.config(bg="#3a3a3a", fg="#dcdcdc")
-    is_dark_theme = not is_dark_theme
+    dark_theme = not dark_theme
 
     """
     Toggles the application's theme between light and dark modes.
@@ -96,9 +96,9 @@ def update_line_numbers(event=None):
     line_numbers.config(state="disabled")
 
 def main():
-    global text_edit, theme_button, is_dark_theme, window, line_numbers, button_frame, all_buttons
+    global text_edit, theme_button, dark_theme, window, line_numbers, button_frame, all_buttons
 
-    is_dark_theme = True #Set it to false if you want to start with Dark theme
+    dark_theme = True #Set it to false if you want to start with Dark theme
     window = tk.Tk()
     window.title("OpenEdit")
     window.attributes("-fullscreen", False)
